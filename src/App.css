@@ -1,38 +1,77 @@
-.App {
+*{
+  margin:0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color: rgb(147, 161, 235);
+
+}
+.main_div{
+  /* background-color: rgb(147, 161, 235); */
+  border: 2px solid transparent;
+  /* /* height: 10px;
+  width: 10px; */
+  background: cover;
+  height: fit-content;
+  
+ 
+} 
+.center_div{
+  margin-top: 50px ;
+  background-color: white;
+  width: 40%;
+  min-height: 400px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  margin-left: 20rem;
+  align-items: center;
+}
+h1{
+  margin-top: 30px;
+  background-color: blueviolet;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  background-color: white;
+  margin-left:150px ;
+  height: 30px;
+  border-radius: 30px;
+  padding-left: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ol{
+  background-color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ol li{
+  background-color: white;
+  margin-left:180px ;
+}
+.add{
+  background-color: blueviolet;
+  padding: 10px;
+  border: transparent;
   color: white;
+  border-radius:50%;
+  font-size: larger;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.add:hover{
+  background-color: green;
+  padding: 15px;
+ 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove{
+  background-color: blueviolet;
+  padding: 10px;
+  border: transparent;
+  color: white;
+  border-radius:50%;
+  font-size: larger;
+}
+.remove:hover{
+  background-color:red;
+  padding: 15px;
+ 
+}
+.todo_style{
+  background-color: white;
 }
